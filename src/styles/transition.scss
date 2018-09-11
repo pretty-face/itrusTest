@@ -1,0 +1,36 @@
+/*
+ * @Author: LiPengCheng 
+ * @Date: 2018-05-30 13:35:23 
+ * @Last Modified by: LiPengCheng
+ * @Last Modified time: 2018-09-04 13:03:48
+ */
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.28s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+  transition: all .5s;
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-active {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.breadcrumb-move {
+  transition: all .5s;
+}
+
+.breadcrumb-leave-active {
+  position: absolute;
+}
+
